@@ -1,0 +1,137 @@
+/* les importations ----------------------------------------------------------- */
+@import url('https://fonts.cdnfonts.com/css/erangle');
+@import url('https://fonts.cdnfonts.com/css/geometr415-lt-bt');
+
+/* le style pour toutes les pages ----------------------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #13315c;
+    font-family: 'Erangle', sans-serif;
+    color: #8da9c4;
+
+}
+
+#charger {
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: #0B2545;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: ease-in-out 0.5s;
+    opacity: 1;
+}
+
+#charger.fade {
+    opacity: 0;
+    z-index: -100;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    width: 90vw;
+    background-color: #0B2545;
+    justify-content: space-between;
+    padding: 5vh;
+    padding-inline: 10vh;
+    z-index: 5;
+}
+
+.nav_liens {
+    text-decoration: none;
+    color: #134074;
+    font-size: 3vh;
+    letter-spacing: 0.2vw;
+    transition: 0.5s;
+}
+
+.nav_liens:hover {
+    color: #8DA9C4;
+}
+
+#ici {
+    color: #8DA9C4;
+    font-size: 5vh;
+}
+
+h1 {
+    color: #EEF4ED;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -40vh;
+    z-index: 6;
+    font-size: 10vh;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -8vh;
+    z-index: 6;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+h3 {
+    margin-inline: auto;
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+h4{
+    margin-top: -4vh;
+}
+
+
+footer {
+    width: 95vw;
+    padding: 5vh;
+    background-color: #0B2545;
+    margin-top: 0.5vh;
+    margin-left: -0.7vw;
+    margin-bottom: -1vh;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: bold;
+    color: #134074;
+    transition: 0.7s;
+}
+
+a:hover {
+    color: #8da9c4;
+}
+
+
+p {
+    width: 45vw;
+    font-size: 2.5vh;
+    font-family: 'Geometr415 Lt BT', sans-serif;
+
+}
+
+table {
+    text-align: left;
+    font-size: large;
+    font-family: 'Geometr415 Lt BT', sans-serif;
+}
+
+th {
+    padding-inline: 3vw;
+}
+

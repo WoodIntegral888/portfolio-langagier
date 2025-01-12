@@ -1,0 +1,79 @@
+/* le style de la page d'accueil ----------------------------------------------------------- */
+
+div.seg1 {
+    margin-top: 16vh;
+    height: 55vh;
+    width: 100vw;
+    background-image: url(images/toile.png);
+    opacity: 0.2;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -30;
+}
+
+.seg2 {
+    display: inline-flex;
+}
+
+.fleur {
+    height: 40vh;
+    margin: 10vw;
+    margin-top: -3vw;
+}
+
+
+.seg3 {
+    margin-left: -0.4vw;
+    margin-top: -33vh;
+    height: 40vh;
+    width: 80vw;
+    background-color: #8DA9C4;
+    z-index: -10;
+    color: #13315c;
+    padding: 10vw;
+}
+
+#graphique {
+    height: 40vh;
+    transition: 0.6s;
+}
+
+#graphique:hover {
+    height: 50vh;
+}
+
+#seg4 {
+    width: 89vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw;
+}
+
+.accueil_btn {
+    background-color: #13315c;
+    border: none;
+    height: 53vh;
+    width: 21.5vw;
+    transition: 0.7s;
+}
+
+.accueil_img {
+    height: 50vh;
+    width: 20vw;
+    overflow: hidden;
+    filter: grayscale(0.5);
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.accueil_btn:hover {
+    background-color: #0B2545;
+}
+
+.accueil_descrip {
+    font-size: 1.8vh;
+    width: 18vw;
+    height: 50vh;
+    margin-top: -65vh;
+    margin-left: 2vw;
+}

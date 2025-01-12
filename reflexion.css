@@ -1,0 +1,47 @@
+/* le style de la page d'accueil ----------------------------------------------------------- */
+
+div.seg1r {
+    margin-top: -5vh;
+    margin-left: -1vw;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/toile.png);
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    z-index: -100;
+    opacity: 0.15;
+}
+
+div.reflex{
+    margin-top: 7vh;
+    width: 90vw; 
+    display: flex; 
+    justify-content: space-between; 
+    /* padding: 2vw; */
+}
+
+img.reflex {
+    border: 1vh solid #0B2545;
+    margin-left: 10vw;
+    height:40vh;
+    width: 30vw;
+    object-fit: cover;
+    filter: grayscale(0.3);
+    opacity: 0.7;
+}
+
+h3{
+    margin-top: 1vh;
+    font-size: 5vh;
+}
+
+p{
+    width:40vw;
+    font-size: 2.2vh;
+    background-color: rgba(11, 37, 69, 0.65);
+    border: 1vh solid rgba(11, 37, 69, 0.1);
+    border-radius: 0.5vh;
+}
+
+

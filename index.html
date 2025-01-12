@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="accueil.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/fleur.png">
+    <title>Accueil - Le Portfolio Langagier de Vishwa</title>
+</head>
+<body>
+    <span id="charger"></span>
+
+    <nav>
+        <a class="nav_liens" href="lesMois/lesMois.html">LES MOIS</a>
+        <a class="nav_liens" id="ici" href="index.html">ACCUEIL</a>
+        <a class="nav_liens" href="reflexion.html">RÉFLEXION</a>
+    </nav>
+
+    <div class="seg1"></div>
+    <h1>Mon Portfolio Langagier</h1>
+    <h2>Vishwa Dave</h2>
+
+    <div class="seg2">
+        <img class="fleur" src="images/fleur.png">
+        <p>
+            Salut! Bienvenu à mon portfolio langagier! Si vous ne le 
+            savez pas déjà, je m’appelle Vishwa et je suis une étudiante 
+            en 12e année à un lycée en Ontario maintenant. Cette site web 
+            est la archive de mon engagement à développer mes compétences 
+            linguistiques depuis 5 mois. 
+        </p>
+    </div>
+
+    <div class="seg3">
+        <h2>Ma Reparatition Finale</h2>
+
+        <div style="display: inline-flex; justify-content: space-between; width: 65vw; margin-inline: 10vw;">
+            <table>
+                <tr>
+                    <th>(CO) Compréhension Orale</th>
+                    <td>22/100</td>
+                </tr>
+    
+                <tr>
+                    <th>(PO) Production Orale</th>
+                    <td>23/100</td>
+                </tr>
+    
+                <tr>
+                    <th>(CE) Compréhension Écrite</th>
+                    <td>29/100</td>
+                </tr>
+    
+                <tr>
+                    <th>(PE) Production Écrite</th>
+                    <td>26/100</td>
+                </tr>
+            </table>
+
+            <img id="graphique" src="images/graphique.png">
+        </div>
+
+    </div>
+
+    <div id="seg4">
+        <span>
+            <button class="accueil_btn" onclick="afficher('buts_descrip', 'buts')">
+                <img class="accueil_img" id="buts" src="images/buts.jpg">
+            </button>
+            <h2 style="width: 20vw; text-align: left; margin-top: 2vh;">
+                Mes Buts d'apprentissage
+            </h2>
+
+            <p class="accueil_descrip" id="buts_descrip" style="display: none;">
+                Je voudrais continuer mon éducation en français pour le plusieurs 
+                raisons, mais je voudrais souligner mes buts de parler avec les 
+                francophones natifs et être compris. Spécifiquement, je souhaite 
+                visiter ou vivre dans les endroits francophones comme en France 
+                ou à Montréal. Mais, pour naviguer dans ces endroits, j'ai besoin 
+                d'apprendre et parler français avec maîtrise. Par ailleurs, si je 
+                vivais dans les endroits francophones, je voudrais savoir la 
+                culture comme la musique, la littérature, etc.
+            </p>
+        </span>
+        
+        <span>
+            <button class="accueil_btn" onclick="afficher('formation_descrip', 'formation')">
+                <img class="accueil_img" id="formation" src="images/ecole.jpg">
+            </button>
+            <h2 style="width: 20vw; text-align: left; margin-top: 2vh;">
+                Ma Formation Scolaire
+            </h2>
+
+            <p class="accueil_descrip" id="formation_descrip" style="display: none;">
+                J'ai commencé mon éducation en français dans mon école élémentaire: 
+                «Wendat Village Public School», avec le programme du français cadre. 
+                J'ai maintenant étudié le français depuis huit ans et je pense que 
+                mon éducation dans mon école secondaire: «Stouffville District 
+                Secondary School», que j'ai commencé réellement comprendre le français. 
+                Pendant mes premières années d'éducation en français l'enseignement a 
+                été contradictoire et vague donc je n’étais pas intéressée pas. Mais 
+                lorsque j'ai suivi mon premier cours de français dans mon lycée, j'ai 
+                découvert que français est une très belle langue et je voudrais 
+                l'apprendre. 
+            </p>
+        </span>
+
+        <span>
+            <button class="accueil_btn" onclick="afficher('mtl_descrip', 'mtl')">
+                <img class="accueil_img" id="mtl" src="images/mtl.jpg">
+            </button>
+            <h2 style="width: 20vw; text-align: left; margin-top: 2vh;">
+                Mon Expérience Hors de l'École 
+            </h2>
+
+            <p class="accueil_descrip" id="mtl_descrip" style="display: none;">
+                Quelquefois dans ma vie, j'ai visité des endroits francophones 
+                comme Montréal et Ottawa. Cependant, je ne suis pas francophone 
+                et en ce moment je n'ai pas des amis francophones. Mais lorsque 
+                j'ai découvert ma passion pour apprendre le français, j'amorçais 
+                immerger moi-même dans la langue. Alors, maintenant je lis, 
+                écris et parle beaucoup de français pour exhauster mes aptitudes. 
+                Parfois, je regarde des films en français aussi! Mais ma chose 
+                préférée à faire est à écouter la musique française. 
+                Particulièrement, j'adore écouter Stromae et Merveille parce 
+                qu'ils sont mes chanteurs préférés. J'espère que je continue mon 
+                voyage de français.
+            </p>
+        </span>
+
+        <span>
+            <button class="accueil_btn"onclick="afficher('inspir_descrip', 'inspir')">
+                <img class="accueil_img" id="inspir" src="images/inspiration.jpg">
+            </button>
+            <h2 style="width: 20vw; text-align: left; margin-top: 2vh;">
+                Mon Inspiration 
+            </h2>
+
+            <p class="accueil_descrip" id="inspir_descrip" style="display: none; margin-top: -60vh;">
+                Mon inspiration est à écouter et comprendre les francophones natifs parler français 
+                et entendre la poésie française. Il y a eu très souvent lorsque je suis tombée sur 
+                la poésie française sur mes réseaux sociaux et j'étais amoureuse. Le fait que je 
+                pouvais comprendre la poésie et sa profondeur j'étais très fière. Avec ces 
+                expériences je suis inspirée pour continuer mon éducation en français pour que je 
+                comprenne davantage la poésie et un contexte plus profond.
+                <br>
+                Une autre inspiration pour moi est l'avantage de la connaissance d'une autre 
+                langue pour ceux qui envisagent d'entreprendre comme moi. Expressément, lorsque 
+                parler avec les clients ou les associés qui sont francophones natifs, ayant une 
+                maîtrise peut aider à garantir l'affaire.
+            </p>
+        </span>
+    </div>
+
+    <footer>
+        <a href="mailto:vishwadave97@gmail.com?subject=French Language Portfolio" target="_blank">
+            Envoyez-Moi Un Courriel...
+        </a>
+    </footer>
+    
+  
+
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
